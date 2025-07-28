@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Rajgad Fort</title>
+    <link rel="stylesheet" href="rajgad.css">
+</head>
+
+<body>
+    <div class="container">
+        <div class="header-bar"></div>
+        <div class="title-container">
+            <div class="orange-line"></div>
+            <div class="title-box">
+                <div class="page-title">RAJGAD FORT</div>
+            </div>
+        </div>
+        <img class="main-image" src="https://placehold.co/1424x551" alt="Rajgad Fort Main Image">
+
+        <div class="content-wrapper">
+            <div class="content-section">
+                <h1>Rajgad Fort</h1>
+                <p>
+                    Rajgad Fort, perched at about 1,376 m in the Sahyadri range roughly 60 km southwest of Pune, stands as
+                    the original capital of Shivaji’s Maratha Empire for over 26 years after being captured in 1647 and
+                    renamed from Murumbdev – hence the nickname “King of Fort”.The sprawling fort spans around 40 km in base
+                    diameter, featuring multi-tiered defenses, rock-hewn bastions, cisterns, caves, temples, and palace
+                    ruins, all offering rich insight into 17th‑century military architecture.
+                    <br><br>
+                    Visitors can explore four main zones: the expansive Padmavati Machi with its temple, freshwater lake,
+                    and Saibai’s Samadhi; the towering three-layered Sanjeevani Machi; the narrow Suvela Machi with its
+                    dramatic ridges; and the Balekilla citadel — the fort’s summit offering sweeping vistas of adjacent
+                    peaks including Torna, Sinhagad, and Raigad.
+                    <br><br>
+                    Adventurers can choose from three main trekking routes beginning at Gunjavane (via the dramatic
+                    Chor Darwaza, about 2.5–3 hr, moderate to difficult), Pali (easier, ~2 hr), or the more rugged
+                    Bhutonde/Bhor path (~3–4 hr). The trek is especially scenic post-monsoon (October–February) and during
+                    winter.
+                    <br><br>
+                    There’s no entry fee, and facilities at Padmavati Temple support overnight stays of around 50 people;
+                    local food options include poha, pithla-bhakri, and tea, though carrying water, snacks, sturdy shoes,
+                    rain gear, and headlamps is recommended.
+                </p>
+            </div>
+
+            <div class="quick-facts">
+                <div class="details-box">
+                    <h2>Quick Facts</h2>
+                    <div class="details location"><b>Location:</b><br>Gunjavane Village, Pune district, Maharashtra</div>
+                    <div class="details nearest"><b>Nearest City:</b><br>Pune (~60 km away)</div>
+                    <div class="details duration"><b>Trek Duration:</b><br>Gunjavane route: ~2.5 to 3 hours<br>Pali route: ~1.5 to 2 hours
+                    </div>
+                    <div class="details height"><b>Height:</b><br>4,514 feet (1,376 meters) above sea level</div>
+                </div>
+                <div class="map-container">
+                    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3788.03314881108!2d73.6811881148893!3d18.29824498753504!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3bc2e4a6a2ffffff%3A0x1c36f8232938b1e!2sRajgad%20Fort!5e0!3m2!1sen!2sin!4v1678886435011!5m2!1sen!2sin" width="100%" height="377" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                </div>
+            </div>
+        </div>
+
+
+        <div class="gallery-section">
+            <div class="gallery-title">Gallery</div>
+            <div class="gallery-grid">
+                <img class="gallery-img" src="https://placehold.co/506x848" alt="Gallery Image 1" onclick="openLightbox(0)">
+                <img class="gallery-img" src="https://placehold.co/506x848" alt="Gallery Image 2" onclick="openLightbox(1)">
+                <img class="gallery-img" src="https://placehold.co/506x848" alt="Gallery Image 3" onclick="openLightbox(2)">
+                <img class="gallery-img" src="https://placehold.co/506x848" alt="Gallery Image 4" onclick="openLightbox(3)">
+            </div>
+        </div>
+
+        <div class="activities-section">
+            <div class="activities-content">
+                <h2>Activities</h2>
+                <p>Make the most of your visit to this heritage destination by ticking these activities off your list.</p>
+                <ul>
+                    <li>Pray at Kaundinya Eshwar Temple</li>
+                    <li>See Rajaram’s Tomb</li>
+                    <li>Witness the Tanaji Memorial and Samadhi</li>
+                    <li>Visit Hawa Point for scenic views</li>
+                    <li>Visit the Tilak Bungalow</li>
+                    <li>Pray at the Kali Temple</li>
+                </ul>
+            </div>
+        </div>
+
+    </div>
+
+    <div id="lightbox" class="lightbox">
+        <span class="close-btn" onclick="closeLightbox()">×</span>
+        <span class="prev-btn" onclick="changeImage(-1)">❮</span>
+        <img class="lightbox-content" id="lightbox-img">
+        <span class="next-btn" onclick="changeImage(1)">❯</span>
+    </div>
+
+    <script src="rajgad.js"></script>
+</body>
+
+</html>

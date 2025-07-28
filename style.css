@@ -1,0 +1,245 @@
+body {
+    margin: 0;
+    font-family: 'Inter', sans-serif;
+    background: linear-gradient(178deg, #FEFEFE 0%, #AAAAAA 11%, #2B2B2B 21%, black 29%, #262525 51%, #171616 61%, black 69%, #1A1A1A 78%, black 83%, #252525 100%);
+    color: white;
+    scroll-behavior: smooth;
+}
+
+header {
+    background: #BCBCBC;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+}
+
+.logo {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+}
+
+.logo h1 {
+    color: black;
+    font-size: 24px;
+    font-family: 'Inika', serif;
+}
+
+.nav-links a {
+    margin: 0 10px;
+    color: black;
+    font-family: 'Inknut Antiqua', serif;
+    text-decoration: none;
+    font-size: 18px;
+    transition: color 0.3s ease;
+}
+
+.nav-links a:hover {
+    color: #FF7B07;
+}
+
+.login-btn {
+    background: #FF7B07;
+    padding: 8px 16px;
+    border-radius: 30px;
+    color: black;
+}
+
+.hero {
+    text-align: center;
+    position: relative;
+}
+
+.hero img {
+    width: 100%;
+    height: auto;
+    display: block;
+}
+
+.divider {
+    width: 80%;
+    height: 10px;
+    background: #FF7C01;
+    margin: 40px auto;
+}
+
+.categories {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 30px;
+    padding: 20px;
+}
+
+.category,
+.category.wide {
+    width: 100%;
+    max-width: 480px;
+    height: 600px;
+    border-radius: 30px;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.category.wide {
+    max-width: 1071px;
+}
+
+.category:hover,
+.category.wide:hover {
+    transform: scale(1.05);
+    box-shadow: 0 0 20px #FF7B07;
+}
+
+.category h3 {
+    font-family: 'Protest Strike', sans-serif;
+    font-size: 36px;
+    color: white;
+    letter-spacing: 5px;
+    text-shadow: 2px 2px 5px black;
+}
+
+/* Background Images */
+.fort {
+    background-image: url('./content/InShot_20250725_221237693.jpg');
+}
+.caves {
+    background-image: url('./content/InShot_20250725_220651482.jpg');
+}
+.temple {
+    background-image: url('./content/InShot_20250725_221331936.jpg');
+}
+.wildlife {
+    background-image: url('https://placehold.co/483x546');
+}
+.beaches {
+    background-image: url('./content/InShot_20250725_221130520.jpg');
+}
+
+.about, .support {
+    padding: 40px 20px;
+    text-align: center;
+}
+
+.about h2, .support h2 {
+    font-family: 'Inknut Antiqua', serif;
+    font-size: 36px;
+    margin-bottom: 20px;
+}
+
+.about-card {
+    max-width: 1100px;
+    margin: 0 auto;
+    background: rgba(255, 255, 255, 0.17);
+    padding: 30px;
+    border-radius: 30px;
+    border: 1px solid black;
+    font-size: 18px;
+    line-height: 1.7;
+}
+
+.help-content {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    max-width: 1200px;
+    margin: auto;
+    gap: 40px;
+}
+
+.help-left, .help-right {
+    flex: 1 1 400px;
+    text-align: left;
+    font-size: 18px;
+    line-height: 1.6;
+}
+
+footer {
+    background: #FF7C01;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding: 40px 20px;
+    color: white;
+}
+
+.footer-left,
+.footer-center,
+.footer-right {
+    flex: 1 1 300px;
+    margin: 10px;
+}
+
+.footer-left img {
+    border-radius: 9999px;
+    width: 80px;
+}
+
+.footer-center a {
+    display: block;
+    color: #002BFF;
+    text-decoration: underline;
+    margin: 5px 0;
+}
+
+/* Responsive */
+.hamburger {
+    display: none;
+    flex-direction: column;
+    cursor: pointer;
+}
+
+.hamburger div {
+    width: 25px;
+    height: 3px;
+    background-color: black;
+    margin: 4px 0;
+}
+
+@media screen and (max-width: 768px) {
+    .hero h2 {
+        font-size: 32px;
+    }
+
+    .category h3 {
+        font-size: 28px;
+    }
+
+    .about-card,
+    .help-left,
+    .help-right {
+        font-size: 16px;
+    }
+
+    .nav-links a {
+        font-size: 14px;
+    }
+
+    .nav-links {
+        display: none;
+        flex-direction: column;
+        background: #BCBCBC;
+        position: absolute;
+        top: 70px;
+        right: 20px;
+        padding: 20px;
+        border-radius: 10px;
+    }
+
+    .nav-links.active {
+        display: flex;
+    }
+
+    .hamburger {
+        display: flex;
+    }
+}
