@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tarkarli beach</title>
+    <link rel="stylesheet" href="beach.css">
+</head>
+
+<body>
+    <div class="container">
+        <div class="header-bar"></div>
+        <div class="title-container">
+            <div class="orange-line"></div>
+            <div class="title-box">
+                <div class="page-title">Tarkarli beach</div>
+            </div>
+        </div>
+        <img class="main-image" src="https://placehold.co/1424x551" alt="Rajgad Fort Main Image">
+
+        <div class="content-wrapper">
+            <div class="content-section">
+                <h1>Tarkarli Beach</h1>
+                <p>Located sin Malvan taluka, Sindhudurg district — approximately 546 km from Mumbai and 410 km from
+                    Pune — Tarkarli is often called the “Queen Beach of Konkan” for its long stretch of pristine white
+                    sands and crystal-clear turquoise waters at the confluence of the Karli River and the Arabian Sea .
+                    <br>
+                    This scenic coastal village is flanked by suru trees and backed by rolling hills, offering idyllic
+                    sunrise and sunset views travelkonkan.in.
+                    It’s one of the few places in India where you can enjoy SSI-certified scuba diving and snorkeling in
+                    shallow, safe waters — including vibrant coral reefs near Sindhudurg Fort and the submerged “Tsunami
+                    Island” — under professional instructors using international-standard equipment Alongside this,
+                    you’ll find parasailing, banana-boat rides, jet-skiing, kayaking, and dolphin-spotting boat trips,
+                    making Tarkarli a full-fledged water-sports hub
+                    Getting there: Accessible by road via NH66 (Mumbai–Goa Highway); daily buses operate from Mumbai,
+                    Pune, and Goa. The nearest railheads are Kudal and Sindhudurg (~30–35 km away), with the upcoming
+                    Chipi/Sindhudurg airport (16 km) expected to boost connectivity .
+                    Stay & culinary highlights: A wide range of accommodations—from MTDC resort and houseboats to
+                    homestays and private beachside lodges—offer you direct beach access . Don’t miss the local Malvani
+                    seafood thalis—fish curry, prawns, pomfrets—alongside the region’s kokum sharbat and fresh Alphonso
+                    mangoes Home-style eateries and beach stalls provide a genuine taste of Konkan cuisine
+                </p>
+            </div>
+
+            <div class="quick-facts">
+                <div class="details-box">
+                    <h2>Quick Facts</h2>
+                    <div class="details location"><b>Location:</b><br>
+                        Malvan, Sindhudurg district, ~546 km from Mumbai</div>
+                    <div class="details nearest"><b>Activities: </b><br>
+                        Parasailing, jet skiing, banana boat rides, kayaking</div>
+                    <div class="details duration"><b>Activities: </b><br>Parasailing, jet skiing, banana boat rides,
+                        kayaking
+                    </div>
+                    <div class="details height"><b>Stay:</b><br> MTDC resorts, houseboats, and seaside homestays</div>
+                    <div class="details height"><b>Best Time: </b><br> October to March, clear waters and festive season
+                    </div>
+                </div>
+                <div class="map-container">
+                    <iframe
+                        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3788.03314881108!2d73.6811881148893!3d18.29824498753504!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3bc2e4a6a2ffffff%3A0x1c36f8232938b1e!2sRajgad%20Fort!5e0!3m2!1sen!2sin!4v1678886435011!5m2!1sen!2sin"
+                        width="100%" height="377" style="border:0;" allowfullscreen="" loading="lazy"
+                        referrerpolicy="no-referrer-when-downgrade"></iframe>
+                </div>
+            </div>
+        </div>
+
+
+        <div class="gallery-section">
+            <div class="gallery-title">Gallery</div>
+            <div class="gallery-grid">
+                <img class="gallery-img" src="./images/tarkarli1.png" alt="Gallery Image 1"
+                    onclick="openLightbox(0)">
+                <img class="gallery-img" src="./images/tarkarli2.png" alt="Gallery Image 2"
+                    onclick="openLightbox(1)">
+                <img class="gallery-img" src="./images/tarkarli3.png" alt="Gallery Image 3"
+                    onclick="openLightbox(2)">
+                <img class="gallery-img" src="./images/tarkarli4.png" alt="Gallery Image 4"
+                    onclick="openLightbox(3)">
+                <img class="gallery-img" src="./images/tarkarli5.png" alt="Gallery Image 5"
+                    onclick="openLightbox(4)">
+                <img class="gallery-img" src="./images/tarkarli6.png" alt="Gallery Image 6"
+                    onclick="openLightbox(5)">
+            </div>
+        </div>
+
+        <div class="activities-section">
+            <div class="activities-content">
+                <h2>Activities</h2>
+                <ul>
+                    <li>Enjoy snorkeling and scuba diving in crystal-clear waters</li>
+                    <li>Spot dolphins on an early morning boat ride</li>
+                    <li>Indulge in water sports like parasailing and jet skiing at Tsunami Island</li>
+                    <li>Take a peaceful houseboat ride in the Karli backwaters</li>
+                    <li>Visit the historic Sindhudurg Fort by boat for stunning views</li>
+
+                </ul>
+            </div>
+        </div>
+
+    </div>
+
+    <div id="lightbox" class="lightbox">
+        <span class="close-btn" onclick="closeLightbox()">×</span>
+        <span class="prev-btn" onclick="changeImage(-1)">❮</span>
+        <img class="lightbox-content" id="lightbox-img">
+        <span class="next-btn" onclick="changeImage(1)">❯</span>
+    </div>
+
+    <script src="beach.js"></script>
+</body>
+
+</html>

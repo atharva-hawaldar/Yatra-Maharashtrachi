@@ -123,8 +123,8 @@ body {
 }
 
 .gallery-grid {
-    display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    display:grid;
+    grid-template-columns: repeat(auto-fit, minmax(400px, 1fr));
     gap: 20px;
 }
 
@@ -132,7 +132,7 @@ body {
     width: 100%;
     height: auto;
     cursor: pointer;
-    border: 1px solid black;
+    border: 1px solid rgb(0, 0, 0);
     transition: transform 0.2s;
 }
 

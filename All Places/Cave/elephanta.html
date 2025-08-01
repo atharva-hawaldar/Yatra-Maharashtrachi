@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Elephanta Caves</title>
+    <link rel="stylesheet" href="cave.css">
+</head>
+
+<body>
+    <div class="container">
+        <div class="header-bar"></div>
+        <div class="title-container">
+            <div class="orange-line"></div>
+            <div class="title-box">
+                <div class="page-title">Elephanta Caves</div>
+            </div>
+        </div>
+        <img class="main-image" src="https://placehold.co/1424x551" alt="Rajgad Fort Main Image">
+
+        <div class="content-wrapper">
+            <div class="content-section">
+                <h1>Elephanta Caves</h1>
+                <p>
+                    The Elephanta CavesNestled on Elephanta Island in Mumbai Harbor, the Elephanta Caves are a UNESCO World Heritage site that stands as one of India’s finest examples of rock-cut temple architecture, primarily dedicated to Shaivism, with elements of Buddhist influence. Dating from the 5th to 8th century CE, these seven caves are carved deep into basalt rock, with Cave 1 (The Great Cave) being the most prominent. Measuring nearly 40 square meters, the cave opens through a modest entrance, but inside reveals a grand, pillared hall, leading to a sacred Linga shrine—a representation of Lord Shiva's divine energy.<br>
+            
+The crown jewel of Elephanta is the magnificent Trimurti Sadashiva sculpture, standing 7 meters high, which beautifully captures Shiva's cosmic roles: as Creator (Brahma), Preserver (Vishnu), and Destroyer (Mahesh), unified in a single three-headed form. The surrounding panels vividly narrate essential Shaivite legends, including Ardhanarishvara (half-man, half-woman form), Nataraja (the cosmic dancer), Kalyanasundara (Shiva’s marriage), Gangadhara (Shiva holding the Ganga), and Yogishvara (the supreme ascetic). Each sculpture is imbued with symbolic precision and artistic mastery, portraying spiritual philosophies through monumental stone.<br>
+The cave’s architecture is aligned along cardinal directions, integrating cosmic and ritualistic symbolism into its spatial design, a feature that reflects advanced planning and deep spiritual understanding. Elephanta’s positioning, combined with its massive, multi-columned halls, symmetrical courtyards, and intricate bas-reliefs, showcase a sophisticated blend of aesthetics and religious devotion. Historically, the caves were severely damaged during the Portuguese occupation in the 16th century, yet much of their grandeur remains intact, silently echoing the golden era of Indian temple carving.<br>
+The journey to the caves begins with a scenic 1-hour ferry ride from Mumbai’s Gateway of India, followed by a climb of approximately 120 steps flanked by stalls selling local handicrafts.
+
+                </p>
+            </div>
+
+            <div class="quick-facts">
+                <div class="details-box">
+                    <h2>Quick Facts</h2>
+                    <div class="details location"><b>Location:</b><br>Elephanta Island, Mumbai Harbour.</div>
+                    <div class="details nearest"><b>History:</b><br>5th to 8th Century CE, Hindu cave temples.</div>
+                    <div class="details duration"><b> Main Attraction:</b><br>Trimurti sculpture, a massive Shiva icon.
+                    </div>
+                    <div class="details height"><b>Unique Design:</b><br>Rock-cut pillars, large courtyards, and intricate carvings.</div>
+                </div>
+                <div class="map-container">
+                    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3788.03314881108!2d73.6811881148893!3d18.29824498753504!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3bc2e4a6a2ffffff%3A0x1c36f8232938b1e!2sRajgad%20Fort!5e0!3m2!1sen!2sin!4v1678886435011!5m2!1sen!2sin" width="100%" height="377" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                </div>
+            </div>
+        </div>
+
+
+        <div class="gallery-section">
+            <div class="gallery-title">Gallery</div>
+            <div class="gallery-grid">
+                <img class="gallery-img" src="https://placehold.co/500x740" alt="Gallery Image 1" onclick="openLightbox(0)">
+                <img class="gallery-img" src="https://placehold.co/500x740" alt="Gallery Image 2" onclick="openLightbox(1)">
+                <img class="gallery-img" src="https://placehold.co/500x740" alt="Gallery Image 3" onclick="openLightbox(2)">
+                <img class="gallery-img" src="https://placehold.co/500x740" alt="Gallery Image 4" onclick="openLightbox(3)">
+                <img class="gallery-img" src="https://placehold.co/500x740" alt="Gallery Image 5" onclick="openLightbox(4)">
+                <img class="gallery-img" src="https://placehold.co/500x740" alt="Gallery Image 6" onclick="openLightbox(5)">
+            </div>
+        </div>
+
+        <div class="activities-section">
+            <div class="activities-content">
+                <h2>Activities</h2>
+                <ul>
+                <li>Take a ferry from the Gateway of India to Elephanta Island (approx. 1 hour)</li>
+                <li>Walk or take the toy train from the jetty to the base of the caves</li>
+                <li>Climb the steps lined with local souvenir and snack stalls</li>
+                <li>Explore Cave 1 – the main Shiva cave with massive rock-cut sculptures</li>
+                <li>See the iconic Trimurti statue – a 20-foot-high carving of Lord Shiva in three forms</li>
+                <li>Visit the panels depicting Shiva legends: Ardhanarishvara, Nataraja, and Kalyanasundara</li>
+                <li>Observe the rock-cut pillars, courtyards, and shrines within the cave complex</li>
+                <li>Visit the smaller caves (Cave 2–5) with Buddhist and Hindu carvings</li>
+                <li>Learn about the history and art of the caves at the Elephanta Museum near the entrance</li>
+                    
+                </ul>
+            </div>
+        </div>
+
+    </div>
+
+    <div id="lightbox" class="lightbox">
+        <span class="close-btn" onclick="closeLightbox()">×</span>
+        <span class="prev-btn" onclick="changeImage(-1)">❮</span>
+        <img class="lightbox-content" id="lightbox-img">
+        <span class="next-btn" onclick="changeImage(1)">❯</span>
+    </div>
+
+    <script src="cave.js"></script>
+</body>
+
+</html>

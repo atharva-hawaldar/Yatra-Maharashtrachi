@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Rajgad Fort</title>
+    <link rel="stylesheet" href="cave.css">
+</head>
+
+<body>
+    <div class="container">
+        <div class="header-bar"></div>
+        <div class="title-container">
+            <div class="orange-line"></div>
+            <div class="title-box">
+                <div class="page-title">Karla Caves</div>
+            </div>
+        </div>
+        <img class="main-image" src="https://placehold.co/1424x551" alt="Rajgad Fort Main Image">
+
+        <div class="content-wrapper">
+            <div class="content-section">
+                <h1>Karla Caves</h1>
+                <p>
+                    Karla CavesKarla Caves, located near the village of Karla, about 11 kilometers from Lonavala in
+                    Maharashtra, India, are among the oldest and most remarkable examples of early Buddhist rock-cut
+                    architecture. These caves were primarily excavated between the 2nd century BCE and the 5th century
+                    CE. They served as important religious and rest stops along the ancient trade routes connecting the
+                    Arabian Sea to the Deccan Plateau. The Karla Caves complex is especially famous for its magnificent
+                    Great Chaitya Hall (Cave 8), which is considered the largest and best-preserved chaitya (prayer
+                    hall) in India. This hall is about 45 meters long and 14 meters high and features a beautifully
+                    vaulted wooden ribbed roof, which closely resembles earlier wooden structures, a rare surviving
+                    example of this style. The entrance to the chaitya has an impressive stone façade with a large
+                    arched window and one surviving grand pillar topped with four lions, similar to the famous lion
+                    capitals from the Mauryan period.<br>
+                    <br>
+                    The caves reflect the early Hinayana (Theravada) Buddhist tradition, as they do not feature Buddha
+                    statues in the original construction but instead focus on stupas as the central object of worship.
+                    Over time, some Mahayana influences also became visible. These caves were supported and funded by
+                    local merchants, traders, and rulers, including the Western Satraps and Satavahana kings. Notably,
+                    inscriptions mention donations from Yavana (Greek) traders, showing the cross-cultural connections
+                    of that period. The location, religious significance, and architectural brilliance of the Karla
+                    Caves make them a vital part of India's ancient cultural and spiritual heritage.
+                </p>
+            </div>
+
+            <div class="quick-facts">
+                <div class="details-box">
+                    <h2>Quick Facts</h2>
+                    <div class="details location"><b>Location:</b><br>Near Lonavala, Maharashtra, about 11 km from
+                        Lonavala and 60 km from Pune.</div>
+                    <div class="details nearest"><b>History:</b><br>Built between 2nd Century BCE to 5th Century CE,
+                        during early Buddhism.</div>
+                    <div class="details duration"><b>Main Attraction:</b><br>Great Chaitya Hall, the largest and
+                        best-preserved Buddhist prayer hall in India.
+                    </div>
+                    <div class="details height"><b>Unique Design:</b><br>Wooden-Style Roof, rare stone-carved ribs
+                        mimicking ancient wooden architecture.</div>
+                </div>
+                <div class="map-container">
+                    <iframe
+                        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3788.03314881108!2d73.6811881148893!3d18.29824498753504!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3bc2e4a6a2ffffff%3A0x1c36f8232938b1e!2sRajgad%20Fort!5e0!3m2!1sen!2sin!4v1678886435011!5m2!1sen!2sin"
+                        width="100%" height="377" style="border:0;" allowfullscreen="" loading="lazy"
+                        referrerpolicy="no-referrer-when-downgrade"></iframe>
+                </div>
+            </div>
+        </div>
+
+
+        <div class="gallery-section">
+            <div class="gallery-title">Gallery</div>
+            <div class="gallery-grid">
+                <img class="gallery-img" src="https://placehold.co/500x740" alt="Gallery Image 1"
+                    onclick="openLightbox(0)">
+                <img class="gallery-img" src="https://placehold.co/500x740" alt="Gallery Image 2"
+                    onclick="openLightbox(1)">
+                <img class="gallery-img" src="https://placehold.co/500x740" alt="Gallery Image 3"
+                    onclick="openLightbox(2)">
+                <img class="gallery-img" src="https://placehold.co/500x740" alt="Gallery Image 4"
+                    onclick="openLightbox(3)">
+                <img class="gallery-img" src="https://placehold.co/500x740" alt="Gallery Image 5"
+                    onclick="openLightbox(4)">
+                <img class="gallery-img" src="https://placehold.co/500x740" alt="Gallery Image 6"
+                    onclick="openLightbox(5)">
+            </div>
+        </div>
+
+        <div class="activities-section">
+            <div class="activities-content">
+                <h2>Activities</h2>
+                <ul>
+                    <li>Climb the stone steps from the base to reach the cave entrance</li>
+                    <li>Observe the 37 massive octagonal pillars inside the main hall</li>
+                    <li>Admire the ancient Buddhist carvings and intricate sculptures</li>
+                    <li>See the stone-carved horse-shoe shaped window (chaitya arch) above the entrance</li>
+                    <li>Visit the rock-cut Viharas (monk dwellings) adjacent to the main hall</li>
+                    <li>Spot inscriptions in Brahmi script dating back to 2nd century BCE</li>
+                    <li>Take photographs of the massive stone facade and carvings</li>
+                    <li>Experience the peaceful and spiritual atmosphere of the ancient cave complex</li>
+                    <li>Combine your visit with a trip to nearby Bhaja and Bedse Caves for a full-day cave tour</li>
+                </ul>
+            </div>
+        </div>
+
+    </div>
+
+    <div id="lightbox" class="lightbox">
+        <span class="close-btn" onclick="closeLightbox()">×</span>
+        <span class="prev-btn" onclick="changeImage(-1)">❮</span>
+        <img class="lightbox-content" id="lightbox-img">
+        <span class="next-btn" onclick="changeImage(1)">❯</span>
+    </div>
+
+    <script src="cave.js"></script>
+</body>
+
+</html>

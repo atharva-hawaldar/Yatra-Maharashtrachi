@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ellora Caves</title>
+    <link rel="stylesheet" href="cave.css">
+</head>
+
+<body>
+    <div class="container">
+        <div class="header-bar"></div>
+        <div class="title-container">
+            <div class="orange-line"></div>
+            <div class="title-box">
+                <div class="page-title">Ellora Caves</div>
+            </div>
+        </div>
+        <img class="main-image" src="https://placehold.co/1424x551" alt="Rajgad Fort Main Image">
+
+        <div class="content-wrapper">
+            <div class="content-section">
+                <h1>Ellora Caves</h1>
+                <p>
+                    The Ellora CavesSprawling across 2 km of basalt cliffs near Aurangabad, the Ellora Caves complex is
+                    a breathtaking fusion of art, religion, and architecture, comprising 34 rock-cut caves that were
+                    excavated over several centuries. These include 12 Buddhist caves dating from approximately 200 BCE
+                    to 600 CE, 17 Hindu caves carved between 500–900 CE, and 5 Jain caves completed around 800–1000 CE.
+                    These magnificent structures were patronized by several powerful dynasties including the Chalukyas,
+                    Rashtrakutas, and Yadavas, reflecting a rich cultural and religious legacy.<br>
+                    The crowning glory of Ellora is the Kailasa Temple (Cave 16), a monumental achievement of rock-cut
+                    engineering and artistry, believed to have been commissioned in the 8th century CE by Rashtrakuta
+                    king Krishna I. The temple was carved directly downward from solid basalt rock, with an estimated
+                    150,000 to 200,000 tons of stone removed in the process. Rising nearly 30 meters high and covering a
+                    footprint of approximately 50 meters by 33 meters, the temple resembles a freestanding multi-storey
+                    Dravidian temple complex complete with intricately carved pillared halls, towering gopurams,
+                    spacious courtyards, and grand sculptures. Scenes from the Ramayana and Mahabharata are meticulously
+                    etched into the walls, including vivid depictions such as Vishnu’s Narasimha avatar (man-lion form),
+                    Ravana shaking Mount Kailash in a show of might, and the sacred Nandi bull patiently watching over
+                    Shiva’s abode.<br>
+                    Among the Buddhist caves, Cave 10 (Vishvakarma Cave) stands out with its elegant vaulted chaitya
+                    hall, ribbed ceilings that mimic wooden beams, and a serene seated Buddha presiding over the
+                    sanctuary.
+                    The journey to the caves begins with a scenic 1-hour ferry ride from Mumbai’s Gateway of India,
+                    followed by a climb of approximately 120 steps flanked by stalls selling local handicrafts.
+
+                </p>
+            </div>
+
+            <div class="quick-facts">
+                <div class="details-box">
+                    <h2>Quick Facts</h2>
+                    <div class="details location"><b>Location:</b><br>Aurangabad, Maharashtra.</div>
+                    <div class="details nearest"><b>History:</b><br>6th to 10th Century CE, multi-religious complex.
+                    </div>
+                    <div class="details duration"><b> Main Attraction:</b><br>Kailasa Temple – world’s largest rock-cut
+                        temple.
+                    </div>
+                    <div class="details height"><b>Unique Design:</b><br>Hindu, Buddhist, and Jain caves in one site.
+                    </div>
+                </div>
+                <div class="map-container">
+                    <iframe
+                        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3788.03314881108!2d73.6811881148893!3d18.29824498753504!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3bc2e4a6a2ffffff%3A0x1c36f8232938b1e!2sRajgad%20Fort!5e0!3m2!1sen!2sin!4v1678886435011!5m2!1sen!2sin"
+                        width="100%" height="377" style="border:0;" allowfullscreen="" loading="lazy"
+                        referrerpolicy="no-referrer-when-downgrade"></iframe>
+                </div>
+            </div>
+        </div>
+
+
+        <div class="gallery-section">
+            <div class="gallery-title">Gallery</div>
+            <div class="gallery-grid">
+                <img class="gallery-img" src="https://placehold.co/500x740" alt="Gallery Image 1"
+                    onclick="openLightbox(0)">
+                <img class="gallery-img" src="https://placehold.co/500x740" alt="Gallery Image 2"
+                    onclick="openLightbox(1)">
+                <img class="gallery-img" src="https://placehold.co/500x740" alt="Gallery Image 3"
+                    onclick="openLightbox(2)">
+                <img class="gallery-img" src="https://placehold.co/500x740" alt="Gallery Image 4"
+                    onclick="openLightbox(3)">
+                <img class="gallery-img" src="https://placehold.co/500x740" alt="Gallery Image 5"
+                    onclick="openLightbox(4)">
+                <img class="gallery-img" src="https://placehold.co/500x740" alt="Gallery Image 6"
+                    onclick="openLightbox(5)">
+            </div>
+        </div>
+
+        <div class="activities-section">
+            <div class="activities-content">
+                <h2>Activities</h2>
+                <ul>
+                    <li>Explore Cave 16 – the magnificent Kailasa Temple, carved from a single rock</li>
+                    <li>Visit the Buddhist caves (Caves 1–12) featuring monasteries, meditation halls, and Buddha
+                        sculptures</li>
+                    <li>Walk through the Hindu caves (Caves 13–29) with intricate carvings of deities and mythological
+                        scenes</li>
+                    <li>Discover the Jain caves (Caves 30–34) showcasing detailed carvings and serene meditation spaces
+                    </li>
+                    <li>Take photographs of the pillars, sculptures, and stone-cut facades</li>
+                    <li>Spend time at the Archaeological Museum near the entrance</li>
+                    <li>Enjoy panoramic views of the Sahyadri hills and surrounding landscapes</li>
+
+                </ul>
+            </div>
+        </div>
+
+    </div>
+
+    <div id="lightbox" class="lightbox">
+        <span class="close-btn" onclick="closeLightbox()">×</span>
+        <span class="prev-btn" onclick="changeImage(-1)">❮</span>
+        <img class="lightbox-content" id="lightbox-img">
+        <span class="next-btn" onclick="changeImage(1)">❯</span>
+    </div>
+
+    <script src="cave.js"></script>
+</body>
+
+</html>

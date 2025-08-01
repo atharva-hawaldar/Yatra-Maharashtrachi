@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Torana Fort</title>
+    <link rel="stylesheet" href="fort.css">
+</head>
+
+<body>
+    <div class="container">
+        <div class="header-bar"></div>
+        <div class="title-container">
+            <div class="orange-line"></div>
+            <div class="title-box">
+                <div class="page-title">TORANA FORT</div>
+            </div>
+        </div>
+        <img class="main-image" src="https://placehold.co/1424x551" alt="Rajgad Fort Main Image">
+
+        <div class="content-wrapper">
+            <div class="content-section">
+                <h1>TORANA FORT</h1>
+                <p>
+                    Torna Fort, also known historically as Prachandagad, soars to 1,403 m above sea level, making it
+                    Pune district’s highest hill-fort. Situated roughly 60 km from Pune, the trek begins from the base
+                    village of Velhe, you can spot the majestic fort from the start. The ascent covers 2–3 km of mixed
+                    terrain, including a steep ridge where ladders and railings guide trekkers through rocky patches. On
+                    the way up, monsoon-season visitors are treated to vibrant wildflowers and occasional streams. It
+                    typically takes about three hours to reach the summit, where explorers can spend another 3–4 hours
+                    wandering through historical relics such as Budhla Machi, Zunjar Machi, Bini and Kothi Darwajas, and
+                    the Menghai Devi Temple nestled amidst the ruins. The panorama from the top encompasses numerous
+                    other forts, including Rajgad and Raigad. Trekkers should set out between July and September to
+                    experience lush greenery, or from November to February for crisp skies and cooler temperatures.
+                    Logistics are straightforward: Velhe offers basic food stalls, though there is no potable water on
+                    the fort—carry at least three liters. Emergency support is available via local health and rescue
+                    teams, but mobile signal is patchy beyond the base. Overall, Torna Fort offers a fulfilling blend of
+                    physical challenge, rich history, and breathtaking natural beauty—ideal for seasoned adventurers and
+                    fit beginners alike.
+                </p>
+            </div>
+
+            <div class="quick-facts">
+                <div class="details-box">
+                    <h2>Quick Facts</h2>
+                    <div class="details location"><b>Location:</b><br>
+                        Approximately 60–65 km southwest of Pune; base village is Velhe</div>
+                    <div class="details nearest"><b>Nearest City:</b><br>
+                        Velhe – trek starts beside local police station</div>
+                    <div class="details duration"><b>Trek Duration:</b><br>Gunjavane route: 3 hrs ascent; additional
+                        3–4 hrs on top to explore
+                    </div>
+                    <div class="details height"><b>Height:</b><br>1,403 m (4,603 ft) – the tallest hill-fort in Pune
+                        district</div>
+                </div>
+                <div class="map-container">
+                    <iframe
+                        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3788.03314881108!2d73.6811881148893!3d18.29824498753504!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3bc2e4a6a2ffffff%3A0x1c36f8232938b1e!2sRajgad%20Fort!5e0!3m2!1sen!2sin!4v1678886435011!5m2!1sen!2sin"
+                        width="100%" height="377" style="border:0;" allowfullscreen="" loading="lazy"
+                        referrerpolicy="no-referrer-when-downgrade"></iframe>
+                </div>
+            </div>
+        </div>
+
+
+        <div class="gallery-section">
+            <div class="gallery-title">Gallery</div>
+            <div class="gallery-grid">
+                <img class="gallery-img" src="https://placehold.co/500x740" alt="Gallery Image 1"
+                    onclick="openLightbox(0)">
+                <img class="gallery-img" src="https://placehold.co/500x740" alt="Gallery Image 2"
+                    onclick="openLightbox(1)">
+                <img class="gallery-img" src="https://placehold.co/500x740" alt="Gallery Image 3"
+                    onclick="openLightbox(2)">
+                <img class="gallery-img" src="https://placehold.co/500x740" alt="Gallery Image 4"
+                    onclick="openLightbox(3)">
+                <img class="gallery-img" src="https://placehold.co/500x740" alt="Gallery Image 5"
+                    onclick="openLightbox(4)">
+                <img class="gallery-img" src="https://placehold.co/500x740" alt="Gallery Image 6"
+                    onclick="openLightbox(5)">
+            </div>
+        </div>
+
+        <div class="activities-section">
+            <div class="activities-content">
+                <h2>Activities</h2>
+                <p>Make the most of your visit to this heritage destination by ticking these activities off your list.
+                </p>
+                <ul>
+
+                    <li>Trek to the fort via Velhe village, the most popular base</li>
+                    <li>Enter through the main gate (Bini Darwaja)</li>
+                    <li>Explore Zunjar Machi – a narrow ridge known for its sharp drops and scenic views</li>
+                    <li>Visit Budhla Machi – a large plateau offering panoramic views of the Sahyadris</li>
+                    <li>See the ancient ruins of temples, granaries, and watchtowers</li>
+                    <li>Spot old water cisterns still in use today</li>
+                    <li>Reach the topmost point for sweeping views of Rajgad, Sinhagad, and Raigad</li>
+                    <li>Enjoy the thrill of trekking in mist and clouds during monsoon</li>
+                    <li>Witness vibrant wildflowers and lush greenery post-monsoon</li>
+                </ul>
+            </div>
+        </div>
+
+    </div>
+
+    <div id="lightbox" class="lightbox">
+        <span class="close-btn" onclick="closeLightbox()">×</span>
+        <span class="prev-btn" onclick="changeImage(-1)">❮</span>
+        <img class="lightbox-content" id="lightbox-img">
+        <span class="next-btn" onclick="changeImage(1)">❯</span>
+    </div>
+
+    <script src="fort.js"></script>
+</body>
+
+</html>

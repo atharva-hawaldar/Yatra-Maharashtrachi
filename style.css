@@ -110,19 +110,19 @@ header {
 
 /* Background Images */
 .fort {
-    background-image: url('./content/InShot_20250725_221237693.jpg');
+    background-image: url('./mainPage-content/InShot_20250725_221237693.jpg');
 }
 .caves {
-    background-image: url('./content/InShot_20250725_220651482.jpg');
+    background-image: url('./mainPage-content/InShot_20250725_220651482.jpg');
 }
 .temple {
-    background-image: url('./content/InShot_20250725_221331936.jpg');
+    background-image: url('./mainPage-content/InShot_20250725_221331936.jpg');
 }
 .wildlife {
-    background-image: url('https://placehold.co/483x546');
+    background-image: url('./mainPage-content/wildlife.jpg');
 }
 .beaches {
-    background-image: url('./content/InShot_20250725_221130520.jpg');
+    background-image: url('./mainPage-content/InShot_20250725_221130520.jpg');
 }
 
 .about, .support {

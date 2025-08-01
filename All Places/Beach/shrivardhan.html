@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Shrivardhan beach</title>
+    <link rel="stylesheet" href="beach.js">
+</head>
+
+<body>
+    <div class="container">
+        <div class="header-bar"></div>
+        <div class="title-container">
+            <div class="orange-line"></div>
+            <div class="title-box">
+                <div class="page-title">Shrivardhan beach</div>
+            </div>
+        </div>
+        <img class="main-image" src="https://placehold.co/1424x551" alt="Rajgad Fort Main Image">
+
+        <div class="content-wrapper">
+            <div class="content-section">
+                <h1>Shrivardhan beach</h1>
+                <p>,Shrivardhan BeachLocated in Raigad district, approximately 180 km from Pune, Shrivardhan Beach is a
+                    serene, gently curving black-sand shoreline that extends over a kilometer, framed by casuarina trees
+                    and historic temples. This coastal town is steeped in Peshwa-era heritage, with the centuries-old
+                    Shrivardhan Ganesh Temple and surrounding shrines offering a spiritual dimension to your beach
+                    visit. <br>
+                    The calm waters and smooth sands make it ideal for family outings, peaceful walks, and light
+                    swimming.
+                    Reaching Shrivardhan is convenient via coastal roads or well-connected state buses and private
+                    vehicles from Pune and Mumbai.<br>
+                    Accommodation includes charming heritage guesthouses, modest beach retreats, and coastal
+                    homestays—all serving Konkani delicacies; don’t miss the fresh pomfret fry, bangda (mackerel), and
+                    homemade sol kadhi. Beyond the beach, visitors can rent boats for estuary tours, cycle through
+                    nearby fishing villages, and explore local creeks dotted with watertolerant trees.
+                    Best visited from November to February, when the weather is pleasant and evenings are cool, though
+                    the monsoon months (June to September) turn the surrounding Sahyadri foothills a lush green, with
+                    soothing rains. Evening beach walks with a light sweater are highly recommended. Guests should carry
+                    comfortable walking shoes, a power bank, and modest swimwear, and be aware that electricity supply
+                    in smaller stays may be unpredictable.
+                </p>
+            </div>
+
+            <div class="quick-facts">
+                <div class="details-box">
+                    <h2>Quick Facts</h2>
+                    <div class="details location"><b>Location:</b><br>
+                        Raigad district, ~180 km from Pune</div>
+                    <div class="details nearest"><b>Shoreline:</b><br>
+                        Shoreline: 4–6 km golden sand beach with coconut groves</div>
+                    <div class="details duration"><b>Specialty: </b><br> Historic Shrivardhan Ganesh Temple nearby
+                    </div>
+                    <div class="details height"><b>Stay:</b><br> Heritage guesthouses, homestays, and coastal lodges
+                    </div>
+                    <div class="details height"><b>Best Time: </b><br>November to February, peaceful mornings and cool
+                        evenings</div>
+                </div>
+                <div class="map-container">
+                    <iframe
+                        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3788.03314881108!2d73.6811881148893!3d18.29824498753504!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3bc2e4a6a2ffffff%3A0x1c36f8232938b1e!2sRajgad%20Fort!5e0!3m2!1sen!2sin!4v1678886435011!5m2!1sen!2sin"
+                        width="100%" height="377" style="border:0;" allowfullscreen="" loading="lazy"
+                        referrerpolicy="no-referrer-when-downgrade"></iframe>
+                </div>
+            </div>
+        </div>
+
+
+        <div class="gallery-section">
+            <div class="gallery-title">Gallery</div>
+            <div class="gallery-grid">
+                <img class="gallery-img" src="https://placehold.co/500x740" alt="Gallery Image 1"
+                    onclick="openLightbox(0)">
+                <img class="gallery-img" src="https://placehold.co/500x740" alt="Gallery Image 2"
+                    onclick="openLightbox(1)">
+                <img class="gallery-img" src="https://placehold.co/500x740" alt="Gallery Image 3"
+                    onclick="openLightbox(2)">
+                <img class="gallery-img" src="https://placehold.co/500x740" alt="Gallery Image 4"
+                    onclick="openLightbox(3)">
+                <img class="gallery-img" src="https://placehold.co/500x740" alt="Gallery Image 5"
+                    onclick="openLightbox(4)">
+                <img class="gallery-img" src="https://placehold.co/500x740" alt="Gallery Image 6"
+                    onclick="openLightbox(5)">
+            </div>
+        </div>
+
+        <div class="activities-section">
+            <div class="activities-content">
+                <h2>Activities</h2>
+
+
+                <ul>
+                    <li>Take long, peaceful walks on the clean sandy shore surrounded by coconut and mango groves</li>
+                    <li>Try water sports like boating, jet-skiing, parasailing, surfing, banana boat rides, or buggy
+                        rides</li>
+                    <li>Go for a dolphin-spotting boat trip with local fishermen in the calm Arabian Sea</li>
+                    <li>Visit the bustling Khalcha Jivana port to watch the evening fish auction and interact with
+                        fishermen</li>
+                    <li>Enjoy local Konkan seafood specialties and refreshing drinks like sol kadhi and kokum sharbat
+                    </li>
+                </ul>
+
+
+
+            </div>
+        </div>
+
+    </div>
+
+    <div id="lightbox" class="lightbox">
+        <span class="close-btn" onclick="closeLightbox()">×</span>
+        <span class="prev-btn" onclick="changeImage(-1)">❮</span>
+        <img class="lightbox-content" id="lightbox-img">
+        <span class="next-btn" onclick="changeImage(1)">❯</span>
+    </div>
+
+    <script src="beach.js"></script>
+</body>
+
+</html>

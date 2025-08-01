@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bedse Caves</title>
+    <link rel="stylesheet" href="cave.css">
+</head>
+
+<body>
+    <div class="container">
+        <div class="header-bar"></div>
+        <div class="title-container">
+            <div class="orange-line"></div>
+            <div class="title-box">
+                <div class="page-title">Bedse Caves</div>
+            </div>
+        </div>
+        <img class="main-image" src="https://placehold.co/1424x551" alt="Rajgad Fort Main Image">
+
+        <div class="content-wrapper">
+            <div class="content-section">
+                <h1>Bedse Caves</h1>
+                <p>
+                    Bedse Caves,Set in Pune’s Maval region about 26 km from Lonavala, the Bedse Caves, carved during the 1st century BCE under the Satavahana kingdom, are a pair of rock-hewn sanctuaries comprising a chaitya hall (Cave 7) and a vihara complex (Cave 11). Cave 7 features a stupa illuminated by a veranda with four intricately crafted columns adorned with animal-and-rider motifs and once supported real wooden roof beams—a rare architectural feature that lent warmth and authenticity, though the beams have long since  The chaitya also exhibits stone-carved ribs along the ceiling that mimic wooden rafters, indicating the transitional phase of Buddhist cave architecture. Cave 11 houses a vaulted apsidal hall lined with nine monk cells around its perimeter, highlighted by relieved chaitya-arch motifs and stone benches, suggesting its function as a monastic residence. The caves were likely used as resting places and meditation centers for Buddhist monks travelling along ancient trade routes.
+                    Positioned approximately 400 steps above the valley, the caves overlook a lush landscape that bursts with waterfalls and greenery during monsoon, making the post-monsoon season the most visually striking time to visit. Unlike the more popular and frequently crowded Karla and Bhaja Caves, Bedse remains a quiet, offbeat destination, attracting those seeking solitude, natural beauty, and an unspoiled connection to India’s early Buddhist heritage. Historical inscriptions in the caves, though eroded, hint at donations from local merchants and indicate that Bedse was once a vibrant spiritual and community center. The surrounding area also offers scenic trekking paths and panoramic views of the Sahyadri hills, enhancing its appeal to both trekkers and heritage enthusiasts. Despite its understated fame, Bedse Caves stand as a valuable testament to the early phases of Buddhist rock-cut architecture, where natural simplicity blends with timeless craftsmanship.
+                </p>
+            </div>
+
+            <div class="quick-facts">
+                <div class="details-box">
+                    <h2>Quick Facts</h2>
+                    <div class="details location"><b>Location:</b><br>Near Kamshet, Maharashtra</div>
+                    <div class="details nearest"><b>History:</b><br>1st Century BCE, ancient Buddhist site.</div>
+                    <div class="details duration"><b>Main Attraction:</b><br>Beautiful Chaitya and Viharas with simple carvings.
+                    </div>
+                    <div class="details height"><b>Unique Design:</b><br>Stone ribbed roofs with natural lighting.</div>
+                </div>
+                <div class="map-container">
+                    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3788.03314881108!2d73.6811881148893!3d18.29824498753504!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3bc2e4a6a2ffffff%3A0x1c36f8232938b1e!2sRajgad%20Fort!5e0!3m2!1sen!2sin!4v1678886435011!5m2!1sen!2sin" width="100%" height="377" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                </div>
+            </div>
+        </div>
+
+
+        <div class="gallery-section">
+            <div class="gallery-title">Gallery</div>
+            <div class="gallery-grid">
+                <img class="gallery-img" src="https://placehold.co/500x740" alt="Gallery Image 1" onclick="openLightbox(0)">
+                <img class="gallery-img" src="https://placehold.co/500x740" alt="Gallery Image 2" onclick="openLightbox(1)">
+                <img class="gallery-img" src="https://placehold.co/500x740" alt="Gallery Image 3" onclick="openLightbox(2)">
+                <img class="gallery-img" src="https://placehold.co/500x740" alt="Gallery Image 4" onclick="openLightbox(3)">
+                <img class="gallery-img" src="https://placehold.co/500x740" alt="Gallery Image 5" onclick="openLightbox(4)">
+                <img class="gallery-img" src="https://placehold.co/500x740" alt="Gallery Image 6" onclick="openLightbox(5)">
+            </div>
+        </div>
+
+        <div class="activities-section">
+            <div class="activities-content">
+                <h2>Activities</h2>
+                <ul>
+                    <li>Climb around 400 steps through a scenic trail to reach the caves</li>
+                    <li>Explore the main Chaitya (prayer hall) with its beautifully carved pillars</li>
+                    <li>Visit the Vihara (monks’ residence) featuring simple cells and a central hall</li>
+                    <li>Admire the elegant stone carvings of animals, floral patterns, and guardian figures</li>
+                    <li>Observe the ancient stone stupa inside the Chaitya</li>
+                    <li>Enjoy panoramic views of the surrounding Sahyadri hills and green valleys</li>
+                    <li>Experience the peaceful and less-crowded atmosphere compared to other cave sites</li>
+                    <li>Learn about the Buddhist heritage dating back to the 1st century BCE</li>
+                    <li>Spot ancient Brahmi script inscriptions carved on stone walls</li>
+                </ul>
+            </div>
+        </div>
+
+    </div>
+
+    <div id="lightbox" class="lightbox">
+        <span class="close-btn" onclick="closeLightbox()">×</span>
+        <span class="prev-btn" onclick="changeImage(-1)">❮</span>
+        <img class="lightbox-content" id="lightbox-img">
+        <span class="next-btn" onclick="changeImage(1)">❯</span>
+    </div>
+
+    <script src="cave.js"></script>
+</body>
+
+</html>

@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Koyna Wildlife Sanctuary
+    </title>
+    <link rel="stylesheet" href="wildlife.css">
+</head>
+
+<body>
+    <div class="container">
+        <div class="header-bar"></div>
+        <div class="title-container">
+            <div class="orange-line"></div>
+            <div class="title-box">
+                <div class="page-title">Koyna Wildlife Sanctuary </div>
+            </div>
+        </div>
+        <img class="main-image" src="https://placehold.co/1424x551" alt="Rajgad Fort Main Image">
+
+        <div class="content-wrapper">
+            <div class="content-section">
+                <h1>Koyna Wildlife Sanctuary </h1>
+                <p>
+                    Koyna Wildlife Sanctuary is a pristine and ecologically significant protected area located in the
+                    Satara district of Maharashtra, about 190 kilometers from Pune and roughly 65 kilometers from
+                    Mahabaleshwar. Spread over an expansive area of approximately 423 square kilometers, the sanctuary
+                    forms an integral part of the Western Ghats, which are globally recognized as a UNESCO World Natural
+                    Heritage Site and one of the world’s eight "hottest hotspots" of biological diversity.<br>
+                    The sanctuary is named after the Koyna River, which flows majestically through its landscape,
+                    creating the massive Shivsagar Lake — one of the largest water reservoirs in Maharashtra. The
+                    terrain is a beautiful mix of thick evergreen forests, semi-evergreen patches, grasslands, valleys,
+                    and hills that reach elevations up to 1,100 meters. The region’s high rainfall and rich soil
+                    contribute to its lush vegetation and thriving biodiversity.<br>
+                    Koyna Wildlife Sanctuary is a key tiger habitat, though sightings are rare due to the dense forests
+                    and the secretive nature of the tigers in this region. Apart from tigers, the sanctuary is home to
+                    Indian leopards, sloth bears, sambar deer, barking deer, Indian bison (gaur), wild boars, giant
+                    squirrels, and langurs. The forests also support several smaller mammals, reptiles, and amphibians,
+                    making it a crucial wildlife corridor that connects other sanctuaries like Chandoli and Radhanagari.
+                    The sanctuary is a paradise for birdwatchers and herpetologists, boasting over 250 species of birds
+                    including the Malabar pied hornbill, crested serpent eagle, grey jungle fowl, and various species of
+                    woodpeckers, kingfishers, and migratory birds that frequent the lake areas. The region is also known
+                    for its diverse population of snakes and frogs, many of which are endemic to the Western Ghats.
+                </p>
+            </div>
+
+            <div class="quick-facts">
+                <div class="details-box">
+                    <h2>Quick Facts</h2>
+                    <div class="details location"><b>Location:</b><br>Satara District, Maharashtra, near Koyna Dam and
+                        Shivsagar Lake.</div>
+                    <div class="details nearest"><b> Founded:</b><br>Declared as a sanctuary in 1985.</div>
+                    <div class="details duration"><b>Best Time to Visit:</b><br>October to May.
+                    </div>
+                    <div class="details height"><b>Entry Fees:</b><br>Nominal entry fee at designated forest
+                        check-posts.</div>
+                </div>
+                <div class="map-container">
+                    <iframe
+                        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3788.03314881108!2d73.6811881148893!3d18.29824498753504!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3bc2e4a6a2ffffff%3A0x1c36f8232938b1e!2sRajgad%20Fort!5e0!3m2!1sen!2sin!4v1678886435011!5m2!1sen!2sin"
+                        width="100%" height="377" style="border:0;" allowfullscreen="" loading="lazy"
+                        referrerpolicy="no-referrer-when-downgrade"></iframe>
+                </div>
+            </div>
+        </div>
+
+
+        <div class="gallery-section">
+            <div class="gallery-title">Gallery</div>
+            <div class="gallery-grid">
+                <img class="gallery-img" src="https://placehold.co/500x740" alt="Gallery Image 1"
+                    onclick="openLightbox(0)">
+                <img class="gallery-img" src="https://placehold.co/500x740" alt="Gallery Image 2"
+                    onclick="openLightbox(1)">
+                <img class="gallery-img" src="https://placehold.co/500x740" alt="Gallery Image 3"
+                    onclick="openLightbox(2)">
+                <img class="gallery-img" src="https://placehold.co/500x740" alt="Gallery Image 4"
+                    onclick="openLightbox(3)">
+                <img class="gallery-img" src="https://placehold.co/500x740" alt="Gallery Image 5"
+                    onclick="openLightbox(4)">
+                <img class="gallery-img" src="https://placehold.co/500x740" alt="Gallery Image 6"
+                    onclick="openLightbox(5)">
+            </div>
+        </div>
+
+        <div class="activities-section">
+            <div class="activities-content">
+                <h2>Activities</h2>
+                <li>Embark on a *jungle jeep safari* through dense forest sections like Vasota and Maharkhor to spot
+                    tigers, Indian bison (gaur), leopards, sloth bears, sambar and barking deer</li>
+                <li>Take *guided nature walks or trekking trails*—including the route to Vasota Fort—offering scenic
+                    views of the Shivsagar reservoir and dense Western Ghats greenery</li>
+                <li>Go *early morning birdwatching*, with expert guides helping spot rare species like Malabar pied
+                    hornbills, Asian fairy bluebirds, heart‑spotted woodpeckers, nightjars and crested goshawks</li>
+                <li>Enjoy *fishing or swimming* in the clean waters of the Koyna River or at safe spots near the
+                    reservoir, with expert supervision and riverside picnic lunch</li>
+                <li>Experience a *night safari adventure*, listening to nocturnal calls and spotting civets, deer,
+                    bison, leopards by moonlight—and stargazing in the silent forest</li>
+
+
+                </ul>
+            </div>
+        </div>
+
+    </div>
+
+    <div id="lightbox" class="lightbox">
+        <span class="close-btn" onclick="closeLightbox()">×</span>
+        <span class="prev-btn" onclick="changeImage(-1)">❮</span>
+        <img class="lightbox-content" id="lightbox-img">
+        <span class="next-btn" onclick="changeImage(1)">❯</span>
+    </div>
+
+    <script src="wildlife.js"></script>
+</body>
+
+</html>

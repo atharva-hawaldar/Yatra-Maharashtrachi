@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Shiva Temple</title>
+    <link rel="stylesheet" href="temple.css">
+</head>
+
+<body>
+    <div class="container">
+        <div class="header-bar"></div>
+        <div class="title-container">
+            <div class="orange-line"></div>
+            <div class="title-box">
+                <div class="page-title">Shiva Temple</div>
+            </div>
+        </div>
+        <img class="main-image" src="https://placehold.co/1424x551" alt="Rajgad Fort Main Image">
+
+        <div class="content-wrapper">
+            <div class="content-section">
+                <h1>Shiva Temple</h1>
+                <p>
+                    Shiva TempleTrimbakeshwar Shiva Temple is one of the most sacred and historically significant
+                    temples in India, located in the town of Trimbak, approximately 28 kilometers from Nashik in
+                    Maharashtra. Revered as one of the twelve Jyotirlingas, the temple holds immense religious
+                    importance among devotees of Lord Shiva. The temple is uniquely positioned at the source of the
+                    Godavari River, considered one of India’s holiest rivers, which is believed to originate from the
+                    sacred Kusavarta Kund situated within the temple premises.<br>
+                    The architectural style of the temple is a classic example of the Hemadpanthi style, constructed
+                    from black basalt stone. The temple is adorned with intricate stone carvings, beautifully sculpted
+                    pillars, and a gracefully designed dome. The main sanctum houses a distinctive Jyotirlinga, which is
+                    not a standalone Shiva Linga but a small, naturally formed depression housing three faces
+                    representing the Hindu Trinity — Brahma, Vishnu, and Mahesh (Shiva) — a rare representation not
+                    commonly found in other Jyotirlingas across India. This tri-faced Jyotirlinga is constantly adorned
+                    with a jeweled crown, which is displayed to devotees only on Mondays.<br>
+                    Trimbakeshwar is also renowned as a center for Vedic rituals and sacred Hindu ceremonies,
+                    particularly for performing the Narayan Nagbali, Tripindi Shraddha, and Kalsarpa Shanti rites, which
+                    are believed to cleanse ancestral and karmic doshas. These rituals attract thousands of pilgrims
+                    from all over India who come to seek spiritual liberation and ancestral peace.<br>
+                    The temple complex is surrounded by scenic hills and is part of the majestic Brahmagiri mountain
+                    range, from where the Godavari River begins its sacred journey. Pilgrims often trek up Brahmagiri
+                    Hill to witness the river’s origin and to visit other nearby temples and caves. The environment
+                    around the temple is serene and lush, particularly during the monsoon season, enhancing its
+                    spiritual ambiance.
+                </p>
+            </div>
+
+            <div class="quick-facts">
+                <div class="details-box">
+                    <h2>Quick Facts</h2>
+                    <div class="details location"><b>Location:</b><br> Trimbak, ~28 km from Nashik, one of the 12
+                        Jyotirlingas in India</div>
+                    <div class="details nearest"><b>Deity & Significance:</b><br> Sanctuary of Lord Shiva—an origin
+                        point of the Godavari River from the sacred Kusavarta Kund.</div>
+                    <div class="details duration"><b> Architecture:</b><br>Built in Hemadpanthi black stone, featuring a
+                        gold-plated pinnacle—constructed by Peshwas.
+                    </div>
+                    <div class="details height"><b>Rituals:</b><br>Pilgrims perform rituals like Nagbali, Tripindi
+                        Tarpan, and Kumbh Snan in the kund.</div>
+                </div>
+                <div class="map-container">
+                    <iframe
+                        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3788.03314881108!2d73.6811881148893!3d18.29824498753504!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3bc2e4a6a2ffffff%3A0x1c36f8232938b1e!2sRajgad%20Fort!5e0!3m2!1sen!2sin!4v1678886435011!5m2!1sen!2sin"
+                        width="100%" height="377" style="border:0;" allowfullscreen="" loading="lazy"
+                        referrerpolicy="no-referrer-when-downgrade"></iframe>
+                </div>
+            </div>
+        </div>
+
+
+        <div class="gallery-section">
+            <div class="gallery-title">Gallery</div>
+            <div class="gallery-grid">
+                <img class="gallery-img" src="https://placehold.co/500x740" alt="Gallery Image 1"
+                    onclick="openLightbox(0)">
+                <img class="gallery-img" src="https://placehold.co/500x740" alt="Gallery Image 2"
+                    onclick="openLightbox(1)">
+                <img class="gallery-img" src="https://placehold.co/500x740" alt="Gallery Image 3"
+                    onclick="openLightbox(2)">
+                <img class="gallery-img" src="https://placehold.co/500x740" alt="Gallery Image 4"
+                    onclick="openLightbox(3)">
+                <img class="gallery-img" src="https://placehold.co/500x740" alt="Gallery Image 5"
+                    onclick="openLightbox(4)">
+                <img class="gallery-img" src="https://placehold.co/500x740" alt="Gallery Image 6"
+                    onclick="openLightbox(5)">
+            </div>
+        </div>
+
+        <div class="activities-section">
+            <div class="activities-content">
+                <h2>Activities</h2>
+                <ul>
+                    <li>Offer prayers at the sacred Jyotirlinga, one of the twelve revered Shiva shrines in India</li>
+                    <li>Explore the temple’s stunning Hemadpanthi architecture built with black stone</li>
+                    <li>Take part in traditional rituals like Narayan Nagbali and Kalsarpa Shanti performed by local
+                        priests</li>
+                    <li>Visit the origin point of the Godavari River, located near the temple</li>
+                    <li>Walk around the temple complex and admire the beautifully carved stone sculptures and shrines
+                    </li>
+
+                </ul>
+            </div>
+        </div>
+
+    </div>
+
+    <div id="lightbox" class="lightbox">
+        <span class="close-btn" onclick="closeLightbox()">×</span>
+        <span class="prev-btn" onclick="changeImage(-1)">❮</span>
+        <img class="lightbox-content" id="lightbox-img">
+        <span class="next-btn" onclick="changeImage(1)">❯</span>
+    </div>
+
+    <script src="temple.js"></script>
+</body>
+
+</html>

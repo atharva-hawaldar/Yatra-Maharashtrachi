@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pandavleni Caves</title>
+    <link rel="stylesheet" href="cave.css">
+</head>
+
+<body>
+    <div class="container">
+        <div class="header-bar"></div>
+        <div class="title-container">
+            <div class="orange-line"></div>
+            <div class="title-box">
+                <div class="page-title">Pandavleni</div>
+            </div>
+        </div>
+        <img class="main-image" src="https://placehold.co/1424x551" alt="Rajgad Fort Main Image">
+
+        <div class="content-wrapper">
+            <div class="content-section">
+                <h1>Pandavleni Caves</h1>
+                <p>
+                    Pandavleni Caves,Carved into the rugged slopes of Trirashmi Hill, about 8 km southwest of Nashik,
+                    the Pandavleni Caves are a collection of around 24 rock-cut sanctuaries that span from the 1st
+                    century BCE to the 3rd century CE, with further additions extending up to the 6th century CE. These
+                    caves primarily represent the Hinayana phase of Buddhism, focusing on simplicity, meditation spaces,
+                    and community living rather than elaborate iconography. The most prominent among them is Cave 3
+                    (Gautamiputra Vihara), commissioned by Queen Gautami Balasiri, mother of the renowned Satavahana
+                    ruler Gautamiputra Satakarni around 150 CE. This grand vihara features spacious assembly halls,
+                    stone benches, intricately carved doorways, and detailed Brahmi inscriptions that shed light on the
+                    patronage of merchants, monks, and Satavahana rulers. These inscriptions not only mention
+                    significant political figures but also reveal the active participation of local trading guilds and
+                    spiritual communities in the site's development.<br>
+                    Cave 18 stands out as the sole chaitya-griha within the complex, housing a carefully crafted stupa
+                    and supported by elegantly carved pillars with chaitya-arch motifs, which showcase the devotional
+                    architectural style of early Buddhist worship. The caves’ advanced rock-cut cisterns and
+                    water-harvesting systems are a testament to the remarkable engineering skills of the period,
+                    ensuring a steady water supply even during dry seasons, which was essential for sustaining the
+                    monastic life at this remote hilltop retreat. Positioned high above the surrounding plains, the
+                    caves offer panoramic views of Nashik city and the Godavari river valley, creating an atmosphere of
+                    peace, isolation, and spiritual elevation.
+                </p>
+            </div>
+
+            <div class="quick-facts">
+                <div class="details-box">
+                    <h2>Quick Facts</h2>
+                    <div class="details location"><b>Location:</b><br>Nashik, Maharashtra.</div>
+                    <div class="details nearest"><b>History:</b><br>2nd Century BCE to 2nd Century CE, Buddhist site.
+                    </div>
+                    <div class="details duration"><b> Main Attraction:</b><br>Viharas, Chaityas, and inscriptions of
+                        Satavahana kings.
+                    </div>
+                    <div class="details height"><b>Unique Design:</b><br>Stone-cut cells with finely carved doors and
+                        pillars.</div>
+                </div>
+                <div class="map-container">
+                    <iframe
+                        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3788.03314881108!2d73.6811881148893!3d18.29824498753504!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3bc2e4a6a2ffffff%3A0x1c36f8232938b1e!2sRajgad%20Fort!5e0!3m2!1sen!2sin!4v1678886435011!5m2!1sen!2sin"
+                        width="100%" height="377" style="border:0;" allowfullscreen="" loading="lazy"
+                        referrerpolicy="no-referrer-when-downgrade"></iframe>
+                </div>
+            </div>
+        </div>
+
+
+        <div class="gallery-section">
+            <div class="gallery-title">Gallery</div>
+            <div class="gallery-grid">
+                <img class="gallery-img" src="https://placehold.co/500x740" alt="Gallery Image 1"
+                    onclick="openLightbox(0)">
+                <img class="gallery-img" src="https://placehold.co/500x740" alt="Gallery Image 2"
+                    onclick="openLightbox(1)">
+                <img class="gallery-img" src="https://placehold.co/500x740" alt="Gallery Image 3"
+                    onclick="openLightbox(2)">
+                <img class="gallery-img" src="https://placehold.co/500x740" alt="Gallery Image 4"
+                    onclick="openLightbox(3)">
+                <img class="gallery-img" src="https://placehold.co/500x740" alt="Gallery Image 5"
+                    onclick="openLightbox(4)">
+                <img class="gallery-img" src="https://placehold.co/500x740" alt="Gallery Image 6"
+                    onclick="openLightbox(5)">
+            </div>
+        </div>
+
+        <div class="activities-section">
+            <div class="activities-content">
+                <h2>Activities</h2>
+                <ul>
+                    <li>Explore Cave 3 – a large vihara with intricately carved pillars and inscriptions</li>
+                    <li>Visit the Buddhist prayer halls (Chaityas) and monastic cells (Viharas) carved into the basalt
+                        rock</li>
+                    <li>Observe ancient Brahmi inscriptions and donor records from the 1st century BCE to 3rd century CE
+                    </li>
+                    <li>Hike up the steps early morning for a peaceful sunrise and cool breeze</li>
+                    <li>Capture stunning views of Nashik city and the Godavari River from the hilltop</li>
+
+
+                </ul>
+            </div>
+        </div>
+
+    </div>
+
+    <div id="lightbox" class="lightbox">
+        <span class="close-btn" onclick="closeLightbox()">×</span>
+        <span class="prev-btn" onclick="changeImage(-1)">❮</span>
+        <img class="lightbox-content" id="lightbox-img">
+        <span class="next-btn" onclick="changeImage(1)">❯</span>
+    </div>
+
+    <script src="cave.js"></script>
+</body>
+
+</html>

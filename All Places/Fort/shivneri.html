@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Shivneri Fort</title>
+    <link rel="stylesheet" href="fort.css">
+</head>
+
+<body>
+    <div class="container">
+        <div class="header-bar"></div>
+        <div class="title-container">
+            <div class="orange-line"></div>
+            <div class="title-box">
+                <div class="page-title">Shivneri Fort</div>
+            </div>
+        </div>
+        <img class="main-image" src="https://placehold.co/1424x551" alt="Rajgad Fort Main Image">
+
+        <div class="content-wrapper">
+            <div class="content-section">
+                <h1>Shivneri fort</h1>
+                <p>
+                    Shivneri Fort, perched atop a rugged triangular hill near Junnar, serves as the revered birthplace
+                    of Chhatrapati Shivaji Maharaj. The well-maintained trek begins in Junnar and leads through seven
+                    historical gates, with a thrilling chain-clad path adding daring flair for adventure lovers. Within
+                    the fort lies the Shivkunj pavilion—where Shivaji's cradle once rested—alongside the serene Shivai
+                    Devi Temple and Jijabai’s ancestral chamber. Water is wisely preserved in central Badami pond and
+                    twin Ganga–Jamuna springs, while the granary (Ambarkhana) and mosque reflect the fort’s multifaceted
+                    legacy. At Kadelot Point, sheer cliffs offer a chilling reminder of medieval discipline and
+                    breathtaking vistas. Trekking here is feasible year-round, but winter offers clear skies for
+                    exploring and monsoon dress the hills in emerald green. With basic facilities at the base and rich
+                    historical layers on top, Shivneri presents an accessible one-day pilgrimage for history
+                    aficionados, trekkers, and cultural explorers alike.
+                </p>
+            </div>
+
+            <div class="quick-facts">
+                <div class="details-box">
+                    <h2>Quick Facts</h2>
+                    <div class="details location"><b>Location:</b><br>2–3 km from Junnar in Pune district, ~90 km from
+                        Pune, ~150 km from Mumbai</div>
+                    <div class="details nearest"><b>Nearest Village:</b><br>Junnar – well-connected by road and public
+                        transport</div>
+                    <div class="details duration"><b>Trek Duration:</b><br>Seven‑Gates route: ~2–3 km, ~1–1.5 hr ascent,
+                        plus 1–2 hr to explore.
+                        Chain‑Gate route: steeper, ~45 min
+                    </div>
+                    <div class="details height"><b>Height:</b><br>~1,024 m (3,360 ft) above sea level</div>
+                </div>
+                <div class="map-container">
+                    <iframe
+                        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3788.03314881108!2d73.6811881148893!3d18.29824498753504!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3bc2e4a6a2ffffff%3A0x1c36f8232938b1e!2sRajgad%20Fort!5e0!3m2!1sen!2sin!4v1678886435011!5m2!1sen!2sin"
+                        width="100%" height="377" style="border:0;" allowfullscreen="" loading="lazy"
+                        referrerpolicy="no-referrer-when-downgrade"></iframe>
+                </div>
+            </div>
+        </div>
+
+
+        <div class="gallery-section">
+            <div class="gallery-title">Gallery</div>
+            <div class="gallery-grid">
+                <img class="gallery-img" src="https://placehold.co/500x740" alt="Gallery Image 1"
+                    onclick="openLightbox(0)">
+                <img class="gallery-img" src="https://placehold.co/500x740" alt="Gallery Image 2"
+                    onclick="openLightbox(1)">
+                <img class="gallery-img" src="https://placehold.co/500x740" alt="Gallery Image 3"
+                    onclick="openLightbox(2)">
+                <img class="gallery-img" src="https://placehold.co/500x740" alt="Gallery Image 4"
+                    onclick="openLightbox(3)">
+                <img class="gallery-img" src="https://placehold.co/500x740" alt="Gallery Image 5"
+                    onclick="openLightbox(4)">
+                <img class="gallery-img" src="https://placehold.co/500x740" alt="Gallery Image 6"
+                    onclick="openLightbox(5)">
+            </div>
+        </div>
+
+        <div class="activities-section">
+            <div class="activities-content">
+                <h2>Activities</h2>
+                <ul>
+                    <p>Make the most of your visit to this heritage destination by ticking these activities off your
+                        list.
+                    </p>
+                    <li> Visit the Badami Talav</li>
+                    <li>
+                        See the statues of Jijabai & young Shivaji</li>
+                    <li> Pray at the Shiva Mandir</li>
+                    <li> Visit Kadelot Point</li>
+
+                </ul>
+            </div>
+        </div>
+
+    </div>
+
+    <div id="lightbox" class="lightbox">
+        <span class="close-btn" onclick="closeLightbox()">×</span>
+        <span class="prev-btn" onclick="changeImage(-1)">❮</span>
+        <img class="lightbox-content" id="lightbox-img">
+        <span class="next-btn" onclick="changeImage(1)">❯</span>
+    </div>
+
+    <script src="fort.js"></script>
+</body>
+
+</html>
